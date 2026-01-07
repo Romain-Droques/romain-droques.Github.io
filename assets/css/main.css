@@ -1474,3 +1474,21 @@ section,
 .contact .php-email-form button[type=submit]:hover {
   background: color-mix(in srgb, var(--accent-color), transparent 20%);
 }
+
+/*--------------------------------------------------------------
+# Photo de profil ronde (Page CV)
+--------------------------------------------------------------*/
+.photo-ronde {
+  /* Transforme le carré en cercle */
+  border-radius: 50%; 
+  
+  /* Force l'image à être un carré parfait avant de l'arrondir */
+  aspect-ratio: 1 / 1; 
+  
+  /* L'image remplit tout le cercle sans être déformée, ce qui dépasse est coupé */
+  object-fit: cover; 
+  
+  /* Optionnel : Ajoute une petite bordure blanche pour faire ressortir la photo */
+  border: 5px solid #fff; 
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1); /* Ajoute une ombre légère */
+}
