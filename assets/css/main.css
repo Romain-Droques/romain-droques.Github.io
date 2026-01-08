@@ -909,91 +909,6 @@ section,
   color: var(--accent-color);
 }
 
-/*--------------------------------------------------------------
-# Testimonials Section
---------------------------------------------------------------*/
-.testimonials .testimonials-carousel,
-.testimonials .testimonials-slider {
-  overflow: hidden;
-}
-
-.testimonials .testimonial-item {
-  box-sizing: content-box;
-  min-height: 320px;
-}
-
-.testimonials .testimonial-item .testimonial-img {
-  width: 90px;
-  border-radius: 50%;
-  margin: -40px 0 0 40px;
-  position: relative;
-  z-index: 2;
-  border: 6px solid var(--background-color);
-}
-
-.testimonials .testimonial-item h3 {
-  font-size: 18px;
-  font-weight: bold;
-  margin: 10px 0 5px 45px;
-}
-
-.testimonials .testimonial-item h4 {
-  font-size: 14px;
-  color: color-mix(in srgb, var(--default-color), transparent 20%);
-  margin: 0 0 0 45px;
-}
-
-.testimonials .testimonial-item .quote-icon-left,
-.testimonials .testimonial-item .quote-icon-right {
-  color: color-mix(in srgb, var(--accent-color), transparent 50%);
-  font-size: 26px;
-  line-height: 0;
-}
-
-.testimonials .testimonial-item .quote-icon-left {
-  display: inline-block;
-  left: -5px;
-  position: relative;
-}
-
-.testimonials .testimonial-item .quote-icon-right {
-  display: inline-block;
-  right: -5px;
-  position: relative;
-  top: 10px;
-  transform: scale(-1, -1);
-}
-
-.testimonials .testimonial-item p {
-  font-style: italic;
-  margin: 0 15px 0 15px;
-  padding: 20px 20px 60px 20px;
-  background: var(--surface-color);
-  border-radius: 6px;
-  position: relative;
-  z-index: 1;
-}
-
-.testimonials .swiper-wrapper {
-  height: auto;
-}
-
-.testimonials .swiper-pagination {
-  margin-top: 20px;
-  position: relative;
-}
-
-.testimonials .swiper-pagination .swiper-pagination-bullet {
-  width: 12px;
-  height: 12px;
-  background-color: var(--background-color);
-  opacity: 1;
-  border: 1px solid var(--accent-color);
-}
-
-.testimonials .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: var(--accent-color);
-}
 
 /*--------------------------------------------------------------
 # Resume Section
@@ -1491,4 +1406,85 @@ section,
   /* Optionnel : Ajoute une petite bordure blanche pour faire ressortir la photo */
   border: 5px solid #fff; 
   box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1); /* Ajoute une ombre légère */
+}
+
+/*--------------------------------------------------------------
+# CV Custom Styles
+--------------------------------------------------------------*/
+
+/* Photo de profil avec bordure blanche épaisse */
+/* NOUVEAU CODE POUR LA PHOTO */
+.cv-photo {
+  border: 5px solid #ffffff;
+  box-shadow: 0 0 20px rgba(0,0,0,0.5);
+  width: 260px;
+  height: 260px;
+  object-fit: cover;
+  max-width: 100%;
+}
+
+/* Titres des sections (Compétences, Formation...) */
+.resume-title {
+  font-size: 20px;
+  font-weight: 700;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: var(--heading-color);
+  text-transform: uppercase;
+  border-bottom: 2px solid var(--accent-color);
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+/* Cartes pour les formations et projets */
+.cv-card {
+  background: var(--surface-color);
+  padding: 20px;
+  border-left: 3px solid var(--accent-color);
+  border-radius: 4px;
+  position: relative;
+}
+
+.cv-card h4 {
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--heading-color);
+  margin-bottom: 5px;
+}
+
+.cv-card .period {
+  font-size: 14px;
+  color: var(--accent-color);
+  font-weight: 600;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.cv-card p {
+  margin-bottom: 0;
+  font-size: 15px;
+}
+
+/* Conteneur simple pour la sidebar */
+.cv-box {
+  background: var(--surface-color);
+  padding: 20px;
+  border-radius: 4px;
+}
+
+/* Badges pour les compétences */
+.badge-skill {
+  display: inline-block;
+  background: rgba(255, 255, 255, 0.1);
+  color: var(--default-color);
+  padding: 8px 12px;
+  border-radius: 50px;
+  font-size: 14px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  transition: 0.3s;
+}
+
+.badge-skill:hover {
+  border-color: var(--accent-color);
+  color: var(--accent-color);
 }
