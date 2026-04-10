@@ -81,52 +81,194 @@
             <h3>Niveaux de développement & Apprentissages critiques</h3>
             <hr>
             <div class="row g-4">
+              
               <div class="col-md-4">
-                <div class="card h-100 border-0 shadow-sm text-dark" style="border-top: 5px solid #ffe5d0 !important;">
+                <div class="card h-100 border-0 shadow-sm text-dark card-n1" data-bs-toggle="collapse" data-bs-target="#panelN1">
                   <div class="card-body">
-                    <h5 class="card-title fw-bold" style="color: #d35400;">Niveau 1 : Découvrir</h5>
+                    <h5 class="card-title fw-bold d-flex justify-content-between align-items-center title-n1">
+                      Niveau 1 : Découvrir
+                      <i class="bi bi-chevron-down chevron-icon"></i>
+                    </h5>
                     <p class="text-muted small">Découvrir les transmissions et la ToIP</p>
                     <ul class="ps-3 small">
-                      <li>Mesurer et analyser les signaux</li>
-                      <li>Caractériser les supports de transmissions</li>
-                      <li>Déployer des supports de transmission</li>
-                      <li>Connecter les systèmes de ToIP</li>
-                      <li>Communiquer avec un client ou collaborateur</li>
+                      <li>AC12.01 | Mesurer, analyser et commenter les signaux</li>
+                      <li>AC12.02 | Caractériser des systèmes de transmissions...</li>
+                      <li>AC12.03 | Déployer des supports de transmission</li>
+                      <li>AC12.04 | Connecter les systèmes de ToIP</li>
+                      <li>AC12.05 | Communiquer avec un tiers...</li>
                     </ul>
                   </div>
                 </div>
               </div>
+
               <div class="col-md-4">
-                <div class="card h-100 border-0 shadow-sm text-dark" style="border-top: 5px solid #ffb37e !important;">
+                <div class="card h-100 border-0 shadow-sm text-dark card-n2" data-bs-toggle="collapse" data-bs-target="#panelN2">
                   <div class="card-body">
-                    <h5 class="card-title fw-bold" style="color: #ba4a00;">Niveau 2 : Maîtriser</h5>
-                    <p class="text-muted small">Maîtriser les composants de connexion</p>
+                    <h5 class="card-title fw-bold d-flex justify-content-between align-items-center title-n2">
+                      Niveau 2 : Maîtriser
+                      <i class="bi bi-chevron-down chevron-icon"></i>
+                    </h5>
+                    <p class="text-muted small">Maîtriser les composantes de connexion</p>
                     <ul class="ps-3 small">
-                      <li>Déployer des transmissions complexes</li>
-                      <li>Mettre en place un accès distant sécurisé</li>
-                      <li>Mettre en place une connexion multi-site</li>
-                      <li>Administrer les réseaux d'accès opérateurs</li>
-                      <li>Organiser un projet selon cahier des charges</li>
+                      <li>AC22.01 | Déployer et caractériser des systèmes de transmissions complexes</li>
+                      <li>AC22.02 | Mettre en place un accès distant sécurisé</li>
+                      <li>AC22.03 | Mettre en place une connexion multi-site via un réseau opérateur</li>
+                      <li>AC22.04 | Déployer des réseaux d'accès des opérateurs</li>
+                      <li>AC22.05 | Capacité à questionner un cahier des charges RT</li>
                     </ul>
                   </div>
                 </div>
               </div>
+
               <div class="col-md-4">
-                <div class="card h-100 border-0 shadow-sm text-dark" style="border-top: 5px solid #e67e22 !important;">
+                <div class="card h-100 border-0 shadow-sm text-dark card-n3" data-bs-toggle="collapse" data-bs-target="#panelN3">
                   <div class="card-body">
-                    <h5 class="card-title fw-bold" style="color: #a04000;">Niveau 3 : Déployer</h5>
-                    <p class="text-muted small">Déployer une solution de connexion ou IP</p>
+                    <h5 class="card-title fw-bold d-flex justify-content-between align-items-center title-n3">
+                      Niveau 3 : Déployer
+                      <i class="bi bi-chevron-down chevron-icon"></i>
+                    </h5>
+                    <p class="text-muted small">Déployer une solution de connexion ou sur IP</p>
                     <ul class="ps-3 small">
-                      <li>Déployer un système de communication</li>
-                      <li>Déployer un réseau sans fil sécurisé</li>
-                      <li>Déployer un réseau d'accès mobile sécurisé</li>
-                      <li>Sécuriser la connexion des collaborateurs</li>
-                      <li>Collaborer en mode projet (FR/EN)</li>
+                      <li>AC32.01 | Déployer un système de communication pour l'entreprise</li>
+                      <li>AC32.02 | Déployer un réseau d'accès sans fil pour le réseau d'entreprise...</li>
+                      <li>AC32.03 | Déployer un réseau d'accès fixe ou mobile...</li>
+                      <li>AC32.04 | Permettre aux collaborateurs de se connecter de manière sécurisée...</li>
+                      <li>AC32.05 | Collaborer en mode projet en français et en anglais</li>
                     </ul>
                   </div>
+                </div>
+              </div>
+
+            </div>
+
+            <div class="collapse mt-4" id="panelN1">
+              <div class="p-4 rounded shadow-sm panel-n1">
+                <h5 class="fw-bold mb-4 panel-title-n1">Apprentissages Critiques — Niveau 1</h5>
+                <div class="accordion" id="accordionN1">
+
+                  <div class="accordion-item border-0 mb-3 rounded overflow-hidden shadow-sm">
+                    <h2 class="accordion-header">
+                      <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#ac1">
+                        AC12.01 — Mesurer, analyser et commenter les signaux
+                      </button>
+                    </h2>
+                    <div id="ac1" class="accordion-collapse collapse">
+                      <div class="accordion-body">
+                        <p class="text-muted small mb-3">Dépose tes captures dans <code>assets/img/preuves/</code> et remplace le <code>src</code>.</p>
+                        <div class="row g-3">
+                          <div class="col-md-6">
+                            <img src="" alt="Preuve AC12.01" class="img-fluid rounded border w-100 preuve-img">
+                          </div>
+                          <div class="col-md-6">
+                            <img src="" alt="Preuve AC12.01" class="img-fluid rounded border w-100 preuve-img">
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="accordion-item border-0 mb-3 rounded overflow-hidden shadow-sm">
+                    <h2 class="accordion-header">
+                      <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#ac2">
+                        AC12.02 — Caractériser des systèmes de transmissions élémentaires et découvrir la modélisation mathématique de leur fonctionnement
+                      </button>
+                    </h2>
+                    <div id="ac2" class="accordion-collapse collapse">
+                      <div class="accordion-body">
+                        <p class="text-muted small mb-3">Dépose tes captures dans <code>assets/img/preuves/</code> et remplace le <code>src</code>.</p>
+                        <div class="row g-3">
+                          <div class="col-md-6">
+                            <img src="" alt="Preuve AC12.02" class="img-fluid rounded border w-100 preuve-img">
+                          </div>
+                          <div class="col-md-6">
+                            <img src="" alt="Preuve AC12.02" class="img-fluid rounded border w-100 preuve-img">
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="accordion-item border-0 mb-3 rounded overflow-hidden shadow-sm">
+                    <h2 class="accordion-header">
+                      <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#ac3">
+                        AC12.03 — Déployer des supports de transmission
+                      </button>
+                    </h2>
+                    <div id="ac3" class="accordion-collapse collapse">
+                      <div class="accordion-body">
+                        <p class="text-muted small mb-3">Dépose tes captures dans <code>assets/img/preuves/</code> et remplace le <code>src</code>.</p>
+                        <div class="row g-3">
+                          <div class="col-md-6">
+                            <img src="" alt="Preuve AC12.03" class="img-fluid rounded border w-100 preuve-img">
+                          </div>
+                          <div class="col-md-6">
+                            <img src="" alt="Preuve AC12.03" class="img-fluid rounded border w-100 preuve-img">
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="accordion-item border-0 mb-3 rounded overflow-hidden shadow-sm">
+                    <h2 class="accordion-header">
+                      <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#ac4">
+                        AC12.04 — Connecter les systèmes de ToIP
+                      </button>
+                    </h2>
+                    <div id="ac4" class="accordion-collapse collapse">
+                      <div class="accordion-body">
+                        <p class="text-muted small mb-3">Dépose tes captures dans <code>assets/img/preuves/</code> et remplace le <code>src</code>.</p>
+                        <div class="row g-3">
+                          <div class="col-md-6">
+                            <img src="" alt="Preuve AC12.04" class="img-fluid rounded border w-100 preuve-img">
+                          </div>
+                          <div class="col-md-6">
+                            <img src="" alt="Preuve AC12.04" class="img-fluid rounded border w-100 preuve-img">
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="accordion-item border-0 mb-3 rounded overflow-hidden shadow-sm">
+                    <h2 class="accordion-header">
+                      <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#ac5">
+                        AC12.05 — Communiquer avec un tiers (client, collaborateur...) et adapter son discours et sa langue à son interlocuteur
+                      </button>
+                    </h2>
+                    <div id="ac5" class="accordion-collapse collapse">
+                      <div class="accordion-body">
+                        <p class="text-muted small mb-3">Dépose tes captures dans <code>assets/img/preuves/</code> et remplace le <code>src</code>.</p>
+                        <div class="row g-3">
+                          <div class="col-md-6">
+                            <img src="" alt="Preuve AC12.05" class="img-fluid rounded border w-100 preuve-img">
+                          </div>
+                          <div class="col-md-6">
+                            <img src="" alt="Preuve AC12.05" class="img-fluid rounded border w-100 preuve-img">
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
                 </div>
               </div>
             </div>
+
+            <div class="collapse mt-4" id="panelN2">
+              <div class="p-4 rounded shadow-sm text-center panel-n2">
+                <i class="bi bi-lock-fill fs-3 mb-2 d-block lock-icon-n2"></i>
+                <p class="text-muted small mb-0">Contenu disponible en BUT2</p>
+              </div>
+            </div>
+
+            <div class="collapse mt-4" id="panelN3">
+              <div class="p-4 rounded shadow-sm text-center panel-n3">
+                <i class="bi bi-lock-fill fs-3 mb-2 d-block lock-icon-n3"></i>
+                <p class="text-muted small mb-0">Contenu disponible en BUT3</p>
+              </div>
+            </div>
+
           </div>
         </div>
 
@@ -143,6 +285,7 @@
           </div>
         </div>
 
+      </div>
     </div>
   </main>
 
@@ -166,8 +309,6 @@
       </div>
     </div>
   </footer>
-
-
 
   <script src="../assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="../assets/vendor/aos/aos.js"></script>

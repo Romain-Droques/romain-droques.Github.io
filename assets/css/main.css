@@ -1,4 +1,4 @@
-/**
+=/**
 * Template Name: Personal
 * Template URL: https://bootstrapmade.com/personal-free-resume-bootstrap-template/
 * Updated: Mar 05 2025 with Bootstrap v5.3.3
@@ -722,4 +722,94 @@ pre {
 .code-link:hover {
   color: #0d6efd !important;  
   text-decoration: underline;
+}
+
+/* ========================================================
+   STYLES EXTRAITS DES BALISES HTML (administrer.html)
+   ======================================================== */
+
+/* Cartes des niveaux */
+.card-n1 {
+  border-top: 5px solid #f8d7da !important;
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Ajout animation */
+}
+.title-n1 {
+  color: #842029;
+}
+
+.card-n2 {
+  border-top: 5px solid #f5b7b1 !important;
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Ajout animation */
+}
+.title-n2 {
+  color: #a93226;
+}
+
+.card-n3 {
+  border-top: 5px solid #920000 !important;
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Ajout animation */
+}
+.title-n3 {
+  color: #920000;
+}
+
+/* Soulèvement des cartes au survol */
+.card-n1:hover, .card-n2:hover, .card-n3:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15) !important;
+}
+
+/* Animation de la flèche (chevron) */
+.chevron-icon {
+  font-size: 0.9rem;
+  transition: transform 0.3s ease; /* Rend la rotation fluide */
+}
+
+/* Fait tourner la flèche quand le panneau est ouvert */
+[aria-expanded="true"] .chevron-icon {
+  transform: rotate(180deg);
+}
+
+/* Panneaux de contenu des niveaux */
+.panel-n1 {
+  background-color: var(--surface-color);
+  border-left: 4px solid #18d26e;
+}
+.panel-title-n1 {
+  color: #18d26e;
+}
+
+.panel-n2 {
+  background-color: var(--surface-color);
+  border-left: 4px solid #18d26e;
+}
+.lock-icon-n2 {
+  color: #18d26e;
+}
+
+.panel-n3 {
+  background-color: var(--surface-color);
+  border-left: 4px solid #18d26e;
+}
+.lock-icon-n3 {
+  color: #18d26e;
+}
+
+/* Images de preuves */
+.preuve-img {
+  min-height: 150px;
+  background-color: #2a2a2a;
+}
+
+/* Typographie diverse */
+.realisation-desc {
+  font-size: 0.85rem;
+}
+
+.footer-credits-text {
+  font-size: 0.9em;
+  color: #888;
 }
