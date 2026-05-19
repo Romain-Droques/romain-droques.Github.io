@@ -140,25 +140,25 @@
                           <div class="col-md-6">
                             <div class="p-3 bg-light rounded h-100 border-start border-4 border-primary">
                               <h6 class="fw-bold text-dark"><i class="bi bi-bullseye me-2"></i>Ce que j'ai fait & Pourquoi</h6>
-                              <p class="small text-muted mb-0">*Décris ici l'action concrète réalisée et son objectif.*</p>
+                              <p class="small text-muted mb-0">Dans le module R205 (Analyse Spectrale), j'ai mesuré et analysé des signaux périodiques (carré, triangulaire, impulsionnel) à 2,5 kHz. L'objectif était d'observer la composition harmonique de ces signaux pour comprendre comment ils se comportent dans un système de transmission réel.</p>
                             </div>
                           </div>
                           <div class="col-md-6">
                             <div class="p-3 bg-light rounded h-100 border-start border-4 border-success">
                               <h6 class="fw-bold text-dark"><i class="bi bi-tools me-2"></i>Comment je l'ai fait</h6>
-                              <p class="small text-muted mb-0">*Détaille la méthode et les outils utilisés.*</p>
+                              <p class="small text-muted mb-0">J'ai utilisé l'Analog Discovery Studio et le logiciel WaveForms pour générer les signaux et visualiser leur spectre fréquentiel. J'ai relevé les harmoniques (Vmax, V_RMS, dBV_RMS) dans des tableaux et comparé les valeurs mesurées aux valeurs théoriques issues de la décomposition en série de Fourier.</p>
                             </div>
                           </div>
                           <div class="col-md-6">
                             <div class="p-3 bg-light rounded h-100 border-start border-4 border-warning">
                               <h6 class="fw-bold text-dark"><i class="bi bi-exclamation-triangle me-2"></i>Difficultés & Apprentissages</h6>
-                              <p class="small text-muted mb-0">*Quelles ont été les difficultés et qu'en as-tu retiré ?*</p>
+                              <p class="small text-muted mb-0">La lecture des niveaux en dBV_RMS demandait de la rigueur car les valeurs pouvaient être facilement confondues avec des grandeurs en Vmax. J'ai appris à systématiquement vérifier l'unité affichée par WaveForms avant de relever une valeur, et à interpréter l'écart entre mesure et théorie comme un indicateur de qualité du signal.</p>
                             </div>
                           </div>
                           <div class="col-md-6">
                             <div class="p-3 bg-light rounded h-100 border-start border-4 border-info">
                               <h6 class="fw-bold text-dark"><i class="bi bi-lightbulb me-2"></i>Comment je ferais autrement</h6>
-                              <p class="small text-muted mb-0">*Perspectives d'amélioration pour la prochaine fois.*</p>
+                              <p class="small text-muted mb-0">Je préparerai à l'avance un tableau récapitulatif avec les valeurs théoriques déjà calculées, pour gagner du temps lors de la mesure et pouvoir repérer immédiatement les écarts significatifs pendant le TP plutôt qu'après.</p>
                             </div>
                           </div>
                         </div>
@@ -183,25 +183,25 @@
                           <div class="col-md-6">
                             <div class="p-3 bg-light rounded h-100 border-start border-4 border-primary">
                               <h6 class="fw-bold text-dark"><i class="bi bi-bullseye me-2"></i>Ce que j'ai fait & Pourquoi</h6>
-                              <p class="small text-muted mb-0">*Décris ici l'action concrète réalisée et son objectif.*</p>
+                              <p class="small text-muted mb-0">Toujours dans le module R205, j'ai étudié les filtres RC (passe-bas et passe-haut) comme systèmes de transmission élémentaires. L'objectif était de comprendre comment un filtre modifie un signal selon sa fréquence, et de modéliser ce comportement via la fonction de transfert et le diagramme de Bode.</p>
                             </div>
                           </div>
                           <div class="col-md-6">
                             <div class="p-3 bg-light rounded h-100 border-start border-4 border-success">
                               <h6 class="fw-bold text-dark"><i class="bi bi-tools me-2"></i>Comment je l'ai fait</h6>
-                              <p class="small text-muted mb-0">*Détaille la méthode et les outils utilisés.*</p>
+                              <p class="small text-muted mb-0">J'ai calculé les fonctions de transfert H(f) des filtres RC, tracé les diagrammes de Bode (gain en dB et phase en degrés), et vérifié les résultats par simulation sous Simulink avec les paramètres harmoniques exacts. J'ai également corrigé des erreurs de formules dans un tableur (fonction ABS() manquante provoquant des #NUM!).</p>
                             </div>
                           </div>
                           <div class="col-md-6">
                             <div class="p-3 bg-light rounded h-100 border-start border-4 border-warning">
                               <h6 class="fw-bold text-dark"><i class="bi bi-exclamation-triangle me-2"></i>Difficultés & Apprentissages</h6>
-                              <p class="small text-muted mb-0">*Quelles ont été les difficultés et qu'en as-tu retiré ?*</p>
+                              <p class="small text-muted mb-0">Le passage de la formule mathématique à une expression utilisable dans le tableur était délicat. Le débogage du #NUM! m'a appris à toujours valider une formule avec des valeurs connues avant de l'appliquer à l'ensemble des données. J'ai aussi mieux compris l'atténuation à -20 dB/décade du premier ordre.</p>
                             </div>
                           </div>
                           <div class="col-md-6">
                             <div class="p-3 bg-light rounded h-100 border-start border-4 border-info">
                               <h6 class="fw-bold text-dark"><i class="bi bi-lightbulb me-2"></i>Comment je ferais autrement</h6>
-                              <p class="small text-muted mb-0">*Perspectives d'amélioration pour la prochaine fois.*</p>
+                              <p class="small text-muted mb-0">Je validerais d'abord le modèle Simulink sur quelques fréquences clés (fréquence de coupure, DC, haute fréquence) avant de lancer une simulation complète, pour repérer plus vite les erreurs de paramétrage.</p>
                             </div>
                           </div>
                         </div>
@@ -226,25 +226,25 @@
                           <div class="col-md-6">
                             <div class="p-3 bg-light rounded h-100 border-start border-4 border-primary">
                               <h6 class="fw-bold text-dark"><i class="bi bi-bullseye me-2"></i>Ce que j'ai fait & Pourquoi</h6>
-                              <p class="small text-muted mb-0">*Décris ici l'action concrète réalisée et son objectif.*</p>
+                              <p class="small text-muted mb-0">Dans les TPs de câblage et d'infrastructure réseau, j'ai appris à déployer différents supports de transmission : câbles RJ45 (catégorie 5e/6), câbles croisés, et fibre optique. L'objectif était de comprendre les contraintes physiques de chaque médium (débit, distance, atténuation) pour choisir le bon support selon le contexte.</p>
                             </div>
                           </div>
                           <div class="col-md-6">
                             <div class="p-3 bg-light rounded h-100 border-start border-4 border-success">
                               <h6 class="fw-bold text-dark"><i class="bi bi-tools me-2"></i>Comment je l'ai fait</h6>
-                              <p class="small text-muted mb-0">*Détaille la méthode et les outils utilisés.*</p>
+                              <p class="small text-muted mb-0">J'ai réalisé des câbles RJ45 en respectant les normes T568A/T568B, testé leur continuité avec un testeur de câble, et comparé les performances des différents supports. J'ai également étudié les caractéristiques de la fibre optique monomode et multimode pour comprendre leurs cas d'usage respectifs.</p>
                             </div>
                           </div>
                           <div class="col-md-6">
                             <div class="p-3 bg-light rounded h-100 border-start border-4 border-warning">
                               <h6 class="fw-bold text-dark"><i class="bi bi-exclamation-triangle me-2"></i>Difficultés & Apprentissages</h6>
-                              <p class="small text-muted mb-0">*Quelles ont été les difficultés et qu'en as-tu retiré ?*</p>
+                              <p class="small text-muted mb-0">Le sertissage des connecteurs RJ45 demande de la précision : un fil mal ordonné ou mal sertit rend le câble inutilisable. J'ai appris à vérifier systématiquement l'ordre des fils avant de sertir, et à utiliser le testeur pour valider chaque paire individuellement.</p>
                             </div>
                           </div>
                           <div class="col-md-6">
                             <div class="p-3 bg-light rounded h-100 border-start border-4 border-info">
                               <h6 class="fw-bold text-dark"><i class="bi bi-lightbulb me-2"></i>Comment je ferais autrement</h6>
-                              <p class="small text-muted mb-0">*Perspectives d'amélioration pour la prochaine fois.*</p>
+                              <p class="small text-muted mb-0">Je ferais une photo de l'ordre des fils avant chaque sertissage pour conserver une preuve visuelle et pouvoir identifier rapidement la source d'un problème si le test de continuité échoue.</p>
                             </div>
                           </div>
                         </div>
@@ -269,25 +269,25 @@
                           <div class="col-md-6">
                             <div class="p-3 bg-light rounded h-100 border-start border-4 border-primary">
                               <h6 class="fw-bold text-dark"><i class="bi bi-bullseye me-2"></i>Ce que j'ai fait & Pourquoi</h6>
-                              <p class="small text-muted mb-0">*Décris ici l'action concrète réalisée et son objectif.*</p>
+                              <p class="small text-muted mb-0">Dans le TP2 du module VoIP (Asterisk), j'ai configuré un IPBX Asterisk avec le protocole PJSIP pour connecter deux téléphones IP (Fanvil et Cisco) et mettre en place un serveur vocal interactif (SVI) à l'extension 0800. L'objectif était de comprendre comment fonctionne la ToIP dans un environnement d'entreprise.</p>
                             </div>
                           </div>
                           <div class="col-md-6">
                             <div class="p-3 bg-light rounded h-100 border-start border-4 border-success">
                               <h6 class="fw-bold text-dark"><i class="bi bi-tools me-2"></i>Comment je l'ai fait</h6>
-                              <p class="small text-muted mb-0">*Détaille la méthode et les outils utilisés.*</p>
+                              <p class="small text-muted mb-0">J'ai édité les fichiers de configuration d'Asterisk (<code>pjsip.conf</code>, <code>extensions.conf</code>) pour déclarer les endpoints des téléphones Fanvil (0101) et Cisco (0102), puis configuré le dialplan pour router les appels vers le bon poste depuis le SVI. J'ai testé les appels entre postes via la CLI Asterisk.</p>
                             </div>
                           </div>
                           <div class="col-md-6">
                             <div class="p-3 bg-light rounded h-100 border-start border-4 border-warning">
                               <h6 class="fw-bold text-dark"><i class="bi bi-exclamation-triangle me-2"></i>Difficultés & Apprentissages</h6>
-                              <p class="small text-muted mb-0">*Quelles ont été les difficultés et qu'en as-tu retiré ?*</p>
+                              <p class="small text-muted mb-0">La configuration PJSIP est verbeuse et une incohérence entre le nom d'un endpoint et son référencement dans le dialplan suffit à bloquer les appels. J'ai appris à utiliser <code>asterisk -rvvv</code> pour lire les logs en temps réel et diagnostiquer les échecs d'enregistrement SIP.</p>
                             </div>
                           </div>
                           <div class="col-md-6">
                             <div class="p-3 bg-light rounded h-100 border-start border-4 border-info">
                               <h6 class="fw-bold text-dark"><i class="bi bi-lightbulb me-2"></i>Comment je ferais autrement</h6>
-                              <p class="small text-muted mb-0">*Perspectives d'amélioration pour la prochaine fois.*</p>
+                              <p class="small text-muted mb-0">Je testerais l'enregistrement SIP de chaque téléphone individuellement avant de configurer le SVI, pour m'assurer que la couche de base fonctionne avant d'ajouter de la complexité dans le dialplan.</p>
                             </div>
                           </div>
                         </div>
@@ -312,25 +312,25 @@
                           <div class="col-md-6">
                             <div class="p-3 bg-light rounded h-100 border-start border-4 border-primary">
                               <h6 class="fw-bold text-dark"><i class="bi bi-bullseye me-2"></i>Ce que j'ai fait & Pourquoi</h6>
-                              <p class="small text-muted mb-0">*Décris ici l'action concrète réalisée et son objectif.*</p>
+                              <p class="small text-muted mb-0">Dans le cadre des SAÉ et des modules d'anglais technique, j'ai été amené à rédiger des comptes-rendus techniques, à présenter des travaux à l'oral, et à adapter mon niveau de langage selon l'interlocuteur : vulgarisation pour un public non-technique, précision pour un enseignant ou un pair. J'ai également rédigé des lettres de motivation en français pour une recherche de stage.</p>
                             </div>
                           </div>
                           <div class="col-md-6">
                             <div class="p-3 bg-light rounded h-100 border-start border-4 border-success">
                               <h6 class="fw-bold text-dark"><i class="bi bi-tools me-2"></i>Comment je l'ai fait</h6>
-                              <p class="small text-muted mb-0">*Détaille la méthode et les outils utilisés.*</p>
+                              <p class="small text-muted mb-0">J'ai structuré mes comptes-rendus de TP selon un plan clair (contexte, manipulation, résultats, conclusion) et soigné la mise en page avec des captures d'écran légendées. Pour les présentations orales, j'ai préparé des supports visuels simples et travaillé la reformulation des concepts techniques en termes accessibles.</p>
                             </div>
                           </div>
                           <div class="col-md-6">
                             <div class="p-3 bg-light rounded h-100 border-start border-4 border-warning">
                               <h6 class="fw-bold text-dark"><i class="bi bi-exclamation-triangle me-2"></i>Difficultés & Apprentissages</h6>
-                              <p class="small text-muted mb-0">*Quelles ont été les difficultés et qu'en as-tu retiré ?*</p>
+                              <p class="small text-muted mb-0">Le principal défi était de trouver le bon niveau de détail : trop technique et l'interlocuteur se perd, trop simplifié et l'information manque de précision. J'ai appris à toujours adapter mon discours en partant des besoins et du contexte de mon interlocuteur plutôt que de ce que je maîtrise moi-même.</p>
                             </div>
                           </div>
                           <div class="col-md-6">
                             <div class="p-3 bg-light rounded h-100 border-start border-4 border-info">
                               <h6 class="fw-bold text-dark"><i class="bi bi-lightbulb me-2"></i>Comment je ferais autrement</h6>
-                              <p class="small text-muted mb-0">*Perspectives d'amélioration pour la prochaine fois.*</p>
+                              <p class="small text-muted mb-0">Je testerai mes explications orales sur un camarade non spécialiste avant une présentation formelle, pour m'assurer que le propos est compréhensible et pour ajuster le vocabulaire et le rythme en conditions réelles.</p>
                             </div>
                           </div>
                         </div>
