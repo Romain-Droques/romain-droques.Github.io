@@ -66,12 +66,11 @@
             <div class="mt-4 p-4 border rounded-4 bg-dark-subtle">
               <h5 class="text-dark fw-bold">Technologies associées</h5>
               <div class="d-flex flex-wrap gap-2 mt-2">
-                <span class="badge bg-danger">SSH / OpenSSL</span>
-                <span class="badge bg-danger">Pare-feu (Iptables/Nftables)</span>
-                <span class="badge bg-danger">Wireshark</span>
-                <span class="badge bg-secondary">Linux Debian</span>
-                <span class="badge bg-secondary">DNSSEC / DHCP</span>
-                <span class="badge bg-secondary">Bash / Python</span>
+                <span class="badge bg-danger">Linux Debian</span>
+                <span class="badge bg-danger">Bash</span>
+                <span class="badge bg-secondary">VirtualBox / VMware ESXi</span>
+                <span class="badge bg-secondary">Python</span>
+                <span class="badge bg-secondary">Iptables / NAT</span>
               </div>
             </div>
           </div>
@@ -91,7 +90,6 @@
                       <i class="bi bi-chevron-down chevron-icon"></i>
                     </h5>
                     <p class="text-muted small">Assister l'administrateur du réseau</p>
-
                   </div>
                 </div>
               </div>
@@ -104,7 +102,6 @@
                       <i class="bi bi-chevron-down chevron-icon"></i>
                     </h5>
                     <p class="text-muted small">Administrer un réseau</p>
-
                   </div>
                 </div>
               </div>
@@ -117,7 +114,6 @@
                       <i class="bi bi-chevron-down chevron-icon"></i>
                     </h5>
                     <p class="text-muted small">Concevoir un réseau</p>
-
                   </div>
                 </div>
               </div>
@@ -147,7 +143,7 @@
                           <div class="col-md-6">
                             <div class="p-3 bg-light rounded h-100 border-start border-4 border-success">
                               <h6 class="fw-bold text-dark"><i class="bi bi-tools me-2"></i>Comment je l'ai fait</h6>
-                              <p class="small text-muted mb-0">J'ai appliqué les lois d'Ohm et de Kirchhoff à des circuits simples lors de travaux pratiques en salle. J'ai utilisé un multimètre pour mesurer des tensions et intensités, et j'ai calculé des puissances dissipées pour vérifier le dimensionnement d'alimentations réseau.</p>
+                              <p class="small text-muted mb-0">J'ai appliqué les lois d'Ohm à des circuits simples lors de travaux pratiques en salle. J'ai utilisé un multimètre pour mesurer des tensions et intensités, et j'ai calculé des puissances dissipées pour vérifier le dimensionnement d'alimentations réseau.</p>
                             </div>
                           </div>
                           <div class="col-md-6">
@@ -162,12 +158,6 @@
                               <p class="small text-muted mb-0">Je prendrais davantage de temps pour simuler des circuits sous un logiciel comme LTSpice avant les manipulations réelles, afin de mieux anticiper les valeurs attendues et gagner en efficacité lors des mesures.</p>
                             </div>
                           </div>
-                        </div>
-                        <h6 class="fw-bold text-dark mb-3"><i class="bi bi-image me-2"></i>Preuves visuelles</h6>
-                        <p class="text-muted small mb-3">Dépose tes captures dans <code>assets/img/preuves/</code> et remplace le <code>src</code>.</p>
-                        <div class="row g-3">
-                          <div class="col-md-6"><img src="" alt="Preuve" class="img-fluid rounded border w-100 preuve-img"></div>
-                          <div class="col-md-6"><img src="" alt="Preuve" class="img-fluid rounded border w-100 preuve-img"></div>
                         </div>
                       </div>
                     </div>
@@ -207,11 +197,10 @@
                             </div>
                           </div>
                         </div>
-                        <h6 class="fw-bold text-dark mb-3"><i class="bi bi-image me-2"></i>Preuves visuelles</h6>
-                        <div class="row g-3">
-                          <div class="col-md-6"><img src="" alt="Preuve" class="img-fluid rounded border w-100 preuve-img"></div>
-                          <div class="col-md-6"><img src="" alt="Preuve" class="img-fluid rounded border w-100 preuve-img"></div>
-                        </div>
+                        <h6 class="fw-bold text-dark mb-3 mt-4"><i class="bi bi-file-earmark-pdf me-2"></i>Compte-rendu de TP</h6>
+                        <button class="btn btn-outline-secondary w-100 py-2 text-start small" data-bs-toggle="modal" data-bs-target="#modalAdminOSI">
+                          <i class="bi bi-file-pdf text-danger me-2"></i>Ouvrir Rapport TP (Analyses Wireshark / OSI)
+                        </button>
                       </div>
                     </div>
                   </div>
@@ -250,11 +239,10 @@
                             </div>
                           </div>
                         </div>
-                        <h6 class="fw-bold text-dark mb-3"><i class="bi bi-image me-2"></i>Preuves visuelles</h6>
-                        <div class="row g-3">
-                          <div class="col-md-6"><img src="" alt="Preuve" class="img-fluid rounded border w-100 preuve-img"></div>
-                          <div class="col-md-6"><img src="" alt="Preuve" class="img-fluid rounded border w-100 preuve-img"></div>
-                        </div>
+                        <h6 class="fw-bold text-dark mb-3 mt-4"><i class="bi bi-file-earmark-pdf me-2"></i>Compte-rendu de TP</h6>
+                        <button class="btn btn-outline-secondary w-100 py-2 text-start small" data-bs-toggle="modal" data-bs-target="#modalAdminPasserelle">
+                          <i class="bi bi-file-pdf text-danger me-2"></i>Ouvrir Rapport TP (Passerelle / NAT)
+                        </button>
                       </div>
                     </div>
                   </div>
@@ -293,10 +281,23 @@
                             </div>
                           </div>
                         </div>
-                        <h6 class="fw-bold text-dark mb-3"><i class="bi bi-image me-2"></i>Preuves visuelles</h6>
+                        <h6 class="fw-bold text-dark mb-3"><i class="bi bi-file-earmark-pdf me-2"></i>Preuves documentées (Livrables R108)</h6>
                         <div class="row g-3">
-                          <div class="col-md-6"><img src="" alt="Preuve" class="img-fluid rounded border w-100 preuve-img"></div>
-                          <div class="col-md-6"><img src="" alt="Preuve" class="img-fluid rounded border w-100 preuve-img"></div>
+                          <div class="col-md-4">
+                            <button class="btn btn-outline-secondary w-100 py-3 text-start small" data-bs-toggle="modal" data-bs-target="#modalAdmin2">
+                              <i class="bi bi-file-pdf text-danger me-2"></i>Ouvrir Rapport TP5 (Processus)
+                            </button>
+                          </div>
+                          <div class="col-md-4">
+                            <button class="btn btn-outline-secondary w-100 py-3 text-start small" data-bs-toggle="modal" data-bs-target="#modalAdmin3">
+                              <i class="bi bi-file-pdf text-danger me-2"></i>Ouvrir Rapport TP6 (Scripts Bash)
+                            </button>
+                          </div>
+                          <div class="col-md-4">
+                            <button class="btn btn-outline-secondary w-100 py-3 text-start small" data-bs-toggle="modal" data-bs-target="#modalAdmin5">
+                              <i class="bi bi-file-pdf text-danger me-2"></i>Ouvrir Livrable Examen CTP
+                            </button>
+                          </div>
                         </div>
                       </div>
                     </div>
@@ -326,7 +327,7 @@
                           <div class="col-md-6">
                             <div class="p-3 bg-light rounded h-100 border-start border-4 border-warning">
                               <h6 class="fw-bold text-dark"><i class="bi bi-exclamation-triangle me-2"></i>Difficultés & Apprentissages</h6>
-                              <p class="small text-muted mb-0">La tentation de modifier plusieurs paramètres en même temps pour aller plus vite est contre-productive : chaque changement doit être testé individuellement. J'ai appris à noter mes actions et résultats pour ne pas me perdre dans les modifications.</p>
+                              <p class="small text-muted mb-0">La tentation de modifier plusieurs paramètres en même temps pour aller plus vite is contre-productive : chaque changement doit être testé individuellement. J'ai appris à noter mes actions et résultats pour ne pas me perdre dans les modifications.</p>
                             </div>
                           </div>
                           <div class="col-md-6">
@@ -336,11 +337,10 @@
                             </div>
                           </div>
                         </div>
-                        <h6 class="fw-bold text-dark mb-3"><i class="bi bi-image me-2"></i>Preuves visuelles</h6>
-                        <div class="row g-3">
-                          <div class="col-md-6"><img src="" alt="Preuve" class="img-fluid rounded border w-100 preuve-img"></div>
-                          <div class="col-md-6"><img src="" alt="Preuve" class="img-fluid rounded border w-100 preuve-img"></div>
-                        </div>
+                        <h6 class="fw-bold text-dark mb-3 mt-4"><i class="bi bi-file-earmark-pdf me-2"></i>Compte-rendu de TP</h6>
+                        <button class="btn btn-outline-secondary w-100 py-2 text-start small" data-bs-toggle="modal" data-bs-target="#modalAdminDiag">
+                          <i class="bi bi-file-pdf text-danger me-2"></i>Ouvrir Rapport TP (Diagnostics réseau)
+                        </button>
                       </div>
                     </div>
                   </div>
@@ -379,11 +379,10 @@
                             </div>
                           </div>
                         </div>
-                        <h6 class="fw-bold text-dark mb-3"><i class="bi bi-image me-2"></i>Preuves visuelles</h6>
-                        <div class="row g-3">
-                          <div class="col-md-6"><img src="" alt="Preuve" class="img-fluid rounded border w-100 preuve-img"></div>
-                          <div class="col-md-6"><img src="" alt="Preuve" class="img-fluid rounded border w-100 preuve-img"></div>
-                        </div>
+                        <h6 class="fw-bold text-dark mb-3 mt-4"><i class="bi bi-file-earmark-pdf me-2"></i>Compte-rendu de TP</h6>
+                        <button class="btn btn-outline-secondary w-100 py-2 text-start small" data-bs-toggle="modal" data-bs-target="#modalAdminVM">
+                          <i class="bi bi-file-pdf text-danger me-2"></i>Ouvrir Rapport TP (Déploiement VM / Client)
+                        </button>
                       </div>
                     </div>
                   </div>
@@ -417,31 +416,30 @@
               <div class="row g-3">
                 <div class="col-md-6">
                   <div class="p-3 rounded card-realisation" data-bs-toggle="modal" data-bs-target="#modalAdmin1">
-                    <h6 class="mb-1 small fw-bold text-dark">TP4: head tail cut sort uniq</h6>
-                    <p class="text-muted mb-0 realisation-desc">Manipulation des fichiers, navigation et commandes de base Linux.</p>
-                    <small class="text-primary fw-bold cursor-pointer">Lire le dossier →</small>
+                    <h6 class="mb-1 small fw-bold text-dark">TP4 : Filtrage et manipulation de flux texte</h6>
+                    <p class="text-muted mb-0 realisation-desc">Utilisation avancée des filtres Linux (head, tail, cut, sort, uniq) pour l'extraction de données métiers.</p>
+                    <small class="text-primary fw-bold cursor-pointer">Consulter le compte-rendu PDF →</small>
                   </div>
                 </div>
                 <div class="col-md-6">
                   <div class="p-3 rounded card-realisation" data-bs-toggle="modal" data-bs-target="#modalAdmin2">
-                    <h6 class="mb-1 small fw-bold text-dark">TP5 : Gestion des processus</h6>
-                    <p class="text-muted mb-0 realisation-desc">Recherche avancée de fichiers et gestion de l'arborescence.</p>
-                    <small class="text-primary fw-bold cursor-pointer">Lire le dossier →</small>
+                    <h6 class="mb-1 small fw-bold text-dark">TP5 : Gestion et contrôle des processus</h6>
+                    <p class="text-muted mb-0 realisation-desc">Contrôle des cycles de vie des tâches sous Debian via le shell (ps, top, kill, nice).</p>
+                    <small class="text-primary fw-bold cursor-pointer">Consulter le compte-rendu PDF →</small>
                   </div>
                 </div>
                 <div class="col-md-6">
                   <div class="p-3 rounded card-realisation" data-bs-toggle="modal" data-bs-target="#modalAdmin3">
-                    <h6 class="mb-1 small fw-bold text-dark">TP6: Programmer en bash</h6>
-                    <p class="text-muted mb-0 realisation-desc">Gestion des utilisateurs (chmod) et application de patchs.</p>
-                    <small class="text-primary fw-bold cursor-pointer">Lire le dossier →</small>
+                    <h6 class="mb-1 small fw-bold text-dark">TP6 : Automatisation et Scripting Bash</h6>
+                    <p class="text-muted mb-0 realisation-desc">Développement de scripts d'administration système intégrant conditions, boucles et gestion des privilèges.</p>
+                    <small class="text-primary fw-bold cursor-pointer">Consulter le compte-rendu PDF →</small>
                   </div>
                 </div>
-                
                 <div class="col-md-6">
                   <div class="p-3 rounded card-realisation" data-bs-toggle="modal" data-bs-target="#modalAdmin5">
-                    <h6 class="mb-1 small fw-bold text-dark">Compte-rendu CTP</h6>
-                    <p class="text-muted mb-0 realisation-desc">Examen pratique : automatisation par script Bash et gestion de processus.</p>
-                    <small class="text-primary fw-bold cursor-pointer">Lire le dossier →</small>
+                    <h6 class="mb-1 small fw-bold text-dark">Validation : Évaluation pratique (CTP)</h6>
+                    <p class="text-muted mb-0 realisation-desc">Résolution en autonomie d'un scénario complet d'automatisation et de gestion d'environnement Linux.</p>
+                    <small class="text-primary fw-bold cursor-pointer">Consulter le compte-rendu PDF →</small>
                   </div>
                 </div>
               </div>
@@ -482,11 +480,17 @@
           <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
         </div>
         <div class="modal-body p-0 bg-dark">
-          <iframe src="../assets/pdf/R108_TP4.pdf" class="pdf-container"></iframe>
+          <object data="../assets/pdf/R108_TP4.pdf" type="application/pdf" width="100%" style="height: 80vh; min-height: 500px; border: none;">
+            <div class="p-5 text-center text-white">
+              <p>Votre navigateur ne permet pas l'affichage direct du PDF.</p>
+              <a href="../assets/pdf/R108_TP4.pdf" target="_blank" class="btn btn-primary">Cliquez ici pour l'ouvrir ou le télécharger</a>
+            </div>
+          </object>
         </div>
       </div>
     </div>
   </div>
+  
   <div class="modal fade" id="modalAdmin2" tabindex="-1" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered modal-xl">
       <div class="modal-content border-0">
@@ -495,11 +499,17 @@
           <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
         </div>
         <div class="modal-body p-0 bg-dark">
-          <iframe src="../assets/pdf/R108_TP5.pdf" class="pdf-container"></iframe>
+          <object data="../assets/pdf/R108_TP5.pdf" type="application/pdf" width="100%" style="height: 80vh; min-height: 500px; border: none;">
+            <div class="p-5 text-center text-white">
+              <p>Votre navigateur ne permet pas l'affichage direct du PDF.</p>
+              <a href="../assets/pdf/R108_TP5.pdf" target="_blank" class="btn btn-primary">Cliquez ici pour l'ouvrir ou le télécharger</a>
+            </div>
+          </object>
         </div>
       </div>
     </div>
   </div>
+  
   <div class="modal fade" id="modalAdmin3" tabindex="-1" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered modal-xl">
       <div class="modal-content border-0">
@@ -508,11 +518,17 @@
           <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
         </div>
         <div class="modal-body p-0 bg-dark">
-          <iframe src="../assets/pdf/R108_TP6.pdf" class="pdf-container"></iframe>
+          <object data="../assets/pdf/R108_TP6.pdf" type="application/pdf" width="100%" style="height: 80vh; min-height: 500px; border: none;">
+            <div class="p-5 text-center text-white">
+              <p>Votre navigateur ne permet pas l'affichage direct du PDF.</p>
+              <a href="../assets/pdf/R108_TP6.pdf" target="_blank" class="btn btn-primary">Cliquez ici pour l'ouvrir ou le télécharger</a>
+            </div>
+          </object>
         </div>
       </div>
     </div>
   </div>
+  
   <div class="modal fade" id="modalAdmin5" tabindex="-1" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered modal-xl">
       <div class="modal-content border-0">
@@ -521,7 +537,88 @@
           <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
         </div>
         <div class="modal-body p-0 bg-dark">
-          <iframe src="../assets/pdf/CompteRendu_Romain_Droques_CTP.pdf" class="pdf-container"></iframe>
+          <object data="../assets/pdf/CompteRendu_Romain_Droques_CTP.pdf" type="application/pdf" width="100%" style="height: 80vh; min-height: 500px; border: none;">
+            <div class="p-5 text-center text-white">
+              <p>Votre navigateur ne permet pas l'affichage direct du PDF.</p>
+              <a href="../assets/pdf/CompteRendu_Romain_Droques_CTP.pdf" target="_blank" class="btn btn-primary">Cliquez ici pour l'ouvrir ou le télécharger</a>
+            </div>
+          </object>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="modalAdminOSI" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-xl">
+      <div class="modal-content border-0">
+        <div class="modal-header bg-dark text-white">
+          <h5 class="modal-title small">TP Wireshark & Modèle OSI</h5>
+          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+        </div>
+        <div class="modal-body p-0 bg-dark">
+          <object data="../assets/pdf/AC11_02_Wireshark.pdf" type="application/pdf" width="100%" style="height: 80vh; min-height: 500px; border: none;">
+            <div class="p-5 text-center text-white">
+              <p>Votre navigateur ne permet pas l'affichage direct du PDF.</p>
+              <a href="../assets/pdf/AC11_02_Wireshark.pdf" target="_blank" class="btn btn-primary">Cliquez ici pour l'ouvrir ou le télécharger</a>
+            </div>
+          </object>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="modalAdminPasserelle" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-xl">
+      <div class="modal-content border-0">
+        <div class="modal-header bg-dark text-white">
+          <h5 class="modal-title small">TP Configuration Passerelle</h5>
+          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+        </div>
+        <div class="modal-body p-0 bg-dark">
+          <object data="../assets/pdf/AC11_03_Passerelle.pdf" type="application/pdf" width="100%" style="height: 80vh; min-height: 500px; border: none;">
+            <div class="p-5 text-center text-white">
+              <p>Votre navigateur ne permet pas l'affichage direct du PDF.</p>
+              <a href="../assets/pdf/AC11_03_Passerelle.pdf" target="_blank" class="btn btn-primary">Cliquez ici pour l'ouvrir ou le télécharger</a>
+            </div>
+          </object>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="modalAdminDiag" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-xl">
+      <div class="modal-content border-0">
+        <div class="modal-header bg-dark text-white">
+          <h5 class="modal-title small">TP Diagnostics et dysfonctionnements</h5>
+          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+        </div>
+        <div class="modal-body p-0 bg-dark">
+          <object data="../assets/pdf/AC11_05_Diagnostics.pdf" type="application/pdf" width="100%" style="height: 80vh; min-height: 500px; border: none;">
+            <div class="p-5 text-center text-white">
+              <p>Votre navigateur ne permet pas l'affichage direct du PDF.</p>
+              <a href="../assets/pdf/AC11_05_Diagnostics.pdf" target="_blank" class="btn btn-primary">Cliquez ici pour l'ouvrir ou le télécharger</a>
+            </div>
+          </object>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="modalAdminVM" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-xl">
+      <div class="modal-content border-0">
+        <div class="modal-header bg-dark text-white">
+          <h5 class="modal-title small">TP Déploiement Poste Client</h5>
+          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+        </div>
+        <div class="modal-body p-0 bg-dark">
+          <object data="../assets/pdf/AC11_06_Deploiement_VM.pdf" type="application/pdf" width="100%" style="height: 80vh; min-height: 500px; border: none;">
+            <div class="p-5 text-center text-white">
+              <p>Votre navigateur ne permet pas l'affichage direct du PDF.</p>
+              <a href="../assets/pdf/AC11_06_Deploiement_VM.pdf" target="_blank" class="btn btn-primary">Cliquez ici pour l'ouvrir ou le télécharger</a>
+            </div>
+          </object>
         </div>
       </div>
     </div>

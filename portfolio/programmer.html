@@ -79,7 +79,6 @@
                       <i class="bi bi-chevron-down chevron-icon"></i>
                     </h5>
                     <p class="text-muted small">S'intégrer dans un service informatique</p>
-
                   </div>
                 </div>
               </div>
@@ -92,7 +91,6 @@
                       <i class="bi bi-chevron-down chevron-icon"></i>
                     </h5>
                     <p class="text-muted small">Développer une application R&T</p>
-
                   </div>
                 </div>
               </div>
@@ -105,7 +103,6 @@
                       <i class="bi bi-chevron-down chevron-icon"></i>
                     </h5>
                     <p class="text-muted small">Piloter un projet de développement R&T</p>
-
                   </div>
                 </div>
               </div>
@@ -129,32 +126,45 @@
                           <div class="col-md-6">
                             <div class="p-3 bg-light rounded h-100 border-start border-4 border-primary">
                               <h6 class="fw-bold text-dark"><i class="bi bi-bullseye me-2"></i>Ce que j'ai fait & Pourquoi</h6>
-                              <p class="small text-muted mb-0">*Décris ici l'action concrète réalisée et son objectif.*</p>
+                              <p class="small text-muted mb-0">Dans le cadre du module R108, j'ai utilisé un système Linux (Debian) en ligne de commande pour réaliser des TPs d'administration : navigation dans l'arborescence, manipulation de fichiers, gestion des droits, des processus et des variables d'environnement. L'objectif était de maîtriser les outils fondamentaux d'un environnement Unix pour être autonome sur un poste professionnel.</p>
                             </div>
                           </div>
                           <div class="col-md-6">
                             <div class="p-3 bg-light rounded h-100 border-start border-4 border-success">
                               <h6 class="fw-bold text-dark"><i class="bi bi-tools me-2"></i>Comment je l'ai fait</h6>
-                              <p class="small text-muted mb-0">*Détaille la méthode et les outils utilisés.*</p>
+                              <p class="small text-muted mb-0">J'ai travaillé directement dans un terminal bash sous Debian. J'ai utilisé des commandes comme <code>mkdir</code>, <code>cp</code>, <code>chmod</code>, <code>find</code>, <code>grep</code>, <code>sort</code>, <code>cut</code>, <code>ps</code> et <code>kill</code>. Les exercices du TP4 (filtres de texte), TP5 (processus) et du CTP m'ont permis de pratiquer ces outils dans des contextes variés et progressifs.</p>
                             </div>
                           </div>
                           <div class="col-md-6">
                             <div class="p-3 bg-light rounded h-100 border-start border-4 border-warning">
                               <h6 class="fw-bold text-dark"><i class="bi bi-exclamation-triangle me-2"></i>Difficultés & Apprentissages</h6>
-                              <p class="small text-muted mb-0">*Quelles ont été les difficultés et qu'en as-tu retiré ?*</p>
+                              <p class="small text-muted mb-0">La diversité des commandes et de leurs options rendait difficile la mémorisation au départ. J'ai appris à utiliser <code>man</code> et <code>--help</code> systématiquement pour comprendre les options disponibles, ce qui m'a rendu beaucoup plus autonome que d'essayer de tout retenir par cœur.</p>
                             </div>
                           </div>
                           <div class="col-md-6">
                             <div class="p-3 bg-light rounded h-100 border-start border-4 border-info">
                               <h6 class="fw-bold text-dark"><i class="bi bi-lightbulb me-2"></i>Comment je ferais autrement</h6>
-                              <p class="small text-muted mb-0">*Perspectives d'amélioration pour la prochaine fois.*</p>
+                              <p class="small text-muted mb-0">Je tiendrais un fichier de notes personnelles (cheatsheet) regroupant les commandes les plus utilisées avec des exemples concrets, pour gagner du temps lors des TPs suivants et consolider ma mémoire pratique.</p>
                             </div>
                           </div>
                         </div>
-                        <h6 class="fw-bold text-dark mb-3"><i class="bi bi-image me-2"></i>Preuves visuelles</h6>
+                        <h6 class="fw-bold text-dark mb-3"><i class="bi bi-file-earmark-pdf me-2"></i>Preuves d'utilisation du système (R108)</h6>
                         <div class="row g-3">
-                          <div class="col-md-6"><img src="" alt="Preuve" class="img-fluid rounded border w-100 preuve-img"></div>
-                          <div class="col-md-6"><img src="" alt="Preuve" class="img-fluid rounded border w-100 preuve-img"></div>
+                          <div class="col-md-4">
+                            <button class="btn btn-outline-secondary w-100 py-2 text-start small" data-bs-toggle="modal" data-bs-target="#modalProgAdmin1">
+                              <i class="bi bi-file-pdf text-danger me-2"></i>Rapport TP4 (Filtres Linux)
+                            </button>
+                          </div>
+                          <div class="col-md-4">
+                            <button class="btn btn-outline-secondary w-100 py-2 text-start small" data-bs-toggle="modal" data-bs-target="#modalProgAdmin2">
+                              <i class="bi bi-file-pdf text-danger me-2"></i>Rapport TP5 (Processus)
+                            </button>
+                          </div>
+                          <div class="col-md-4">
+                            <button class="btn btn-outline-secondary w-100 py-2 text-start small" data-bs-toggle="modal" data-bs-target="#modalProgAdmin4">
+                              <i class="bi bi-file-pdf text-danger me-2"></i>Livrable Examen CTP
+                            </button>
+                          </div>
                         </div>
                       </div>
                     </div>
@@ -172,32 +182,27 @@
                           <div class="col-md-6">
                             <div class="p-3 bg-light rounded h-100 border-start border-4 border-primary">
                               <h6 class="fw-bold text-dark"><i class="bi bi-bullseye me-2"></i>Ce que j'ai fait & Pourquoi</h6>
-                              <p class="small text-muted mb-0">*Décris ici l'action concrète réalisée et son objectif.*</p>
+                              <p class="small text-muted mb-0">Lors du contrôle de TP en Python (R108), j'ai lu, analysé et modifié des programmes existants : un script d'analyse d'adresse IP, un script de traitement de liste avec calcul de moyenne, et un script de génération de carré ASCII. L'objectif était de comprendre du code écrit par autrui, d'identifier les erreurs et de l'adapter à de nouvelles contraintes.</p>
                             </div>
                           </div>
                           <div class="col-md-6">
                             <div class="p-3 bg-light rounded h-100 border-start border-4 border-success">
                               <h6 class="fw-bold text-dark"><i class="bi bi-tools me-2"></i>Comment je l'ai fait</h6>
-                              <p class="small text-muted mb-0">*Détaille la méthode et les outils utilisés.*</p>
+                              <p class="small text-muted mb-0">J'ai exécuté les programmes dans le terminal Python3, lu les messages d'erreur pour localiser bugs (<code>SyntaxError</code>, <code>IndexError</code>), puis modifié le code source avec un éditeur texte. Pour le script d'adresse IP, j'ai ajusté la logique conditionnelle en testant différents cas (réseau, broadcast, machine).</p>
                             </div>
                           </div>
                           <div class="col-md-6">
                             <div class="p-3 bg-light rounded h-100 border-start border-4 border-warning">
                               <h6 class="fw-bold text-dark"><i class="bi bi-exclamation-triangle me-2"></i>Difficultés & Apprentissages</h6>
-                              <p class="small text-muted mb-0">*Quelles ont été les difficultés et qu'en as-tu retiré ?*</p>
+                              <p class="small text-muted mb-0">Comprendre la logique d'un programme qu'on n'a pas écrit soi-même prend du temps. J'ai appris à lire le code de bas en haut (variables, puis fonctions, puis flux principal) et à ajouter des <code>print()</code> temporaires pour tracer l'état du programme à différentes étapes.</p>
                             </div>
                           </div>
                           <div class="col-md-6">
                             <div class="p-3 bg-light rounded h-100 border-start border-4 border-info">
                               <h6 class="fw-bold text-dark"><i class="bi bi-lightbulb me-2"></i>Comment je ferais autrement</h6>
-                              <p class="small text-muted mb-0">*Perspectives d'amélioration pour la prochaine fois.*</p>
+                              <p class="small text-muted mb-0">Je commenterais le code au fur et à mesure de ma lecture pour noter ce que chaque bloc fait, avant même de chercher les erreurs. Cela aide à garder une vue d'ensemble et à ne pas modifier un bloc utile par accident.</p>
                             </div>
                           </div>
-                        </div>
-                        <h6 class="fw-bold text-dark mb-3"><i class="bi bi-image me-2"></i>Preuves visuelles</h6>
-                        <div class="row g-3">
-                          <div class="col-md-6"><img src="" alt="Preuve" class="img-fluid rounded border w-100 preuve-img"></div>
-                          <div class="col-md-6"><img src="" alt="Preuve" class="img-fluid rounded border w-100 preuve-img"></div>
                         </div>
                       </div>
                     </div>
@@ -215,32 +220,40 @@
                           <div class="col-md-6">
                             <div class="p-3 bg-light rounded h-100 border-start border-4 border-primary">
                               <h6 class="fw-bold text-dark"><i class="bi bi-bullseye me-2"></i>Ce que j'ai fait & Pourquoi</h6>
-                              <p class="small text-muted mb-0">*Décris ici l'action concrète réalisée et son objectif.*</p>
+                              <p class="small text-muted mb-0">En R108 (TP6 et CTP), j'ai traduit des algorithmes décrits en langage naturel en scripts bash fonctionnels : un script <code>ldir</code> séparant fichiers et répertoires, un script <code>sauvegardeTxt</code> copiant automatiquement les fichiers .txt, et un script <code>poubelle</code> déplaçant des fichiers vers un répertoire trash. L'objectif était de passer d'une logique abstraite à un programme exécutable dans l'environnement Linux.</p>
                             </div>
                           </div>
                           <div class="col-md-6">
                             <div class="p-3 bg-light rounded h-100 border-start border-4 border-success">
                               <h6 class="fw-bold text-dark"><i class="bi bi-tools me-2"></i>Comment je l'ai fait</h6>
-                              <p class="small text-muted mb-0">*Détaille la méthode et les outils utilisés.*</p>
+                              <p class="small text-muted mb-0">J'ai rédigé les scripts avec <code>nano</code> sous bash, en utilisant les structures <code>if/else</code>, <code>for</code>, <code>while</code> et des commandes comme <code>find</code>, <code>cp</code>, <code>mv</code>. Pour <code>ldir</code>, j'ai utilisé <code>find -maxdepth 1</code> avec <code>-type f</code> et <code>-type d</code> séparément, puis trié la sortie avec <code>sort</code>. Chaque script a été rendu exécutable avec <code>chmod +x</code>.</p>
                             </div>
                           </div>
                           <div class="col-md-6">
                             <div class="p-3 bg-light rounded h-100 border-start border-4 border-warning">
                               <h6 class="fw-bold text-dark"><i class="bi bi-exclamation-triangle me-2"></i>Difficultés & Apprentissages</h6>
-                              <p class="small text-muted mb-0">*Quelles ont été les difficultés et qu'en as-tu retiré ?*</p>
+                              <p class="small text-muted mb-0">La gestion des cas limites (pas d'argument fourni, répertoire inexistant, fichier déjà présent en destination) était la partie la plus délicate. J'ai appris à systématiquement tester les cas d'erreur en plus des cas normaux, et à utiliser <code>$#</code> et <code>$?</code> pour contrôler le flux d'exécution.</p>
                             </div>
                           </div>
                           <div class="col-md-6">
                             <div class="p-3 bg-light rounded h-100 border-start border-4 border-info">
                               <h6 class="fw-bold text-dark"><i class="bi bi-lightbulb me-2"></i>Comment je ferais autrement</h6>
-                              <p class="small text-muted mb-0">*Perspectives d'amélioration pour la prochaine fois.*</p>
+                              <p class="small text-muted mb-0">J'écrirais d'abord le pseudo-code sur papier avant de coder, pour identifier tous les cas à traiter sans être distrait par la syntaxe. Cela éviterait d'oublier des cas limites qui sont plus faciles à repérer à la phase de conception qu'à la phase de débogage.</p>
                             </div>
                           </div>
                         </div>
-                        <h6 class="fw-bold text-dark mb-3"><i class="bi bi-image me-2"></i>Preuves visuelles</h6>
+                        <h6 class="fw-bold text-dark mb-3"><i class="bi bi-file-earmark-pdf me-2"></i>Livrables Algorithmes & Scripts (R108)</h6>
                         <div class="row g-3">
-                          <div class="col-md-6"><img src="" alt="Preuve" class="img-fluid rounded border w-100 preuve-img"></div>
-                          <div class="col-md-6"><img src="" alt="Preuve" class="img-fluid rounded border w-100 preuve-img"></div>
+                          <div class="col-md-6">
+                            <button class="btn btn-outline-secondary w-100 py-2 text-start small" data-bs-toggle="modal" data-bs-target="#modalProgAdmin3">
+                              <i class="bi bi-file-pdf text-danger me-2"></i>Rapport TP6 (Programmation Bash)
+                            </button>
+                          </div>
+                          <div class="col-md-6">
+                            <button class="btn btn-outline-secondary w-100 py-2 text-start small" data-bs-toggle="modal" data-bs-target="#modalProgAdmin4">
+                              <i class="bi bi-file-pdf text-danger me-2"></i>Scripting Examen CTP
+                            </button>
+                          </div>
                         </div>
                       </div>
                     </div>
@@ -258,32 +271,27 @@
                           <div class="col-md-6">
                             <div class="p-3 bg-light rounded h-100 border-start border-4 border-primary">
                               <h6 class="fw-bold text-dark"><i class="bi bi-bullseye me-2"></i>Ce que j'ai fait & Pourquoi</h6>
-                              <p class="small text-muted mb-0">*Décris ici l'action concrète réalisée et son objectif.*</p>
+                              <p class="small text-muted mb-0">Dans le cadre de la SAÉ portfolio, j'ai conçu et développé ce site web de portfolio avec HTML, CSS and Bootstrap. L'objectif était de comprendre comment s'articule un site web : structure HTML (balises sémantiques, liens entre pages), feuilles de style CSS, framework Bootstrap pour le responsive, et JavaScript pour les interactions (accordéons, modales, navigation mobile).</p>
                             </div>
                           </div>
                           <div class="col-md-6">
                             <div class="p-3 bg-light rounded h-100 border-start border-4 border-success">
                               <h6 class="fw-bold text-dark"><i class="bi bi-tools me-2"></i>Comment je l'ai fait</h6>
-                              <p class="small text-muted mb-0">*Détaille la méthode et les outils utilisés.*</p>
+                              <p class="small text-muted mb-0">J'ai utilisé un template Bootstrap (BootstrapMade "Personal") comme base, que j'ai personnalisé intégralement : thème sombre, structure multi-pages (<code>portfolio.html</code>, <code>administrer.html</code>, etc.), composants Bootstrap (collapse, accordion, modal) pour afficher les preuves et les codes. Le site est hébergé sur GitHub Pages avec un déploiement continu depuis le dépôt.</p>
                             </div>
                           </div>
                           <div class="col-md-6">
                             <div class="p-3 bg-light rounded h-100 border-start border-4 border-warning">
                               <h6 class="fw-bold text-dark"><i class="bi bi-exclamation-triangle me-2"></i>Difficultés & Apprentissages</h6>
-                              <p class="small text-muted mb-0">*Quelles ont été les difficultés et qu'en as-tu retiré ?*</p>
+                              <p class="small text-muted mb-0">Les différences de rendu entre l'environnement local et GitHub Pages (chemins sensibles à la casse, ressources bloquées) ont nécessité plusieurs corrections. J'ai compris l'importance de tester régulièrement sur l'environnement de déploiement cible, et pas uniquement en local.</p>
                             </div>
                           </div>
                           <div class="col-md-6">
                             <div class="p-3 bg-light rounded h-100 border-start border-4 border-info">
                               <h6 class="fw-bold text-dark"><i class="bi bi-lightbulb me-2"></i>Comment je ferais autrement</h6>
-                              <p class="small text-muted mb-0">*Perspectives d'amélioration pour la prochaine fois.*</p>
+                              <p class="small text-muted mb-0">Je définirais l'arborescence complète du projet (pages, assets, PDFs) avant d'écrire la première ligne de HTML, pour éviter de devoir corriger tous les chemins relatifs après coup quand la structure évolue.</p>
                             </div>
                           </div>
-                        </div>
-                        <h6 class="fw-bold text-dark mb-3"><i class="bi bi-image me-2"></i>Preuves visuelles</h6>
-                        <div class="row g-3">
-                          <div class="col-md-6"><img src="" alt="Preuve" class="img-fluid rounded border w-100 preuve-img"></div>
-                          <div class="col-md-6"><img src="" alt="Preuve" class="img-fluid rounded border w-100 preuve-img"></div>
                         </div>
                       </div>
                     </div>
@@ -301,33 +309,32 @@
                           <div class="col-md-6">
                             <div class="p-3 bg-light rounded h-100 border-start border-4 border-primary">
                               <h6 class="fw-bold text-dark"><i class="bi bi-bullseye me-2"></i>Ce que j'ai fait & Pourquoi</h6>
-                              <p class="small text-muted mb-0">*Décris ici l'action concrète réalisée et son objectif.*</p>
+                              <p class="small text-muted mb-0">Dans le TP1 du module R207 (Bases de données), j'ai créé et peuplé des tables PostgreSQL à partir de fichiers CSV. L'objectif était de choisir le bon type de données pour chaque colonne (entiers, chaînes, dates, clés étrangères) et d'argumenter pourquoi PostgreSQL était adapté : robustesse des contraintes d'intégrité, facilité des imports CSV, et commandes de sauvegarde/restauration (<code>pg_dump</code>, <code>psql</code>).</p>
                             </div>
                           </div>
                           <div class="col-md-6">
                             <div class="p-3 bg-light rounded h-100 border-start border-4 border-success">
                               <h6 class="fw-bold text-dark"><i class="bi bi-tools me-2"></i>Comment je l'ai fait</h6>
-                              <p class="small text-muted mb-0">*Détaille la méthode et les outils utilisés.*</p>
+                              <p class="small text-muted mb-0">J'ai créé les tables avec <code>CREATE TABLE</code> en définissant les types (<code>INTEGER</code>, <code>VARCHAR</code>, <code>DATE</code>) et les contraintes (<code>PRIMARY KEY</code>, <code>FOREIGN KEY</code>, <code>NOT NULL</code>). J'ai importé les données via <code>\copy</code> dans psql. Pour la sauvegarde, j'ai utilisé <code>pg_dump</code> depuis le terminal et <code>psql</code> pour la restauration.</p>
                             </div>
                           </div>
                           <div class="col-md-6">
                             <div class="p-3 bg-light rounded h-100 border-start border-4 border-warning">
                               <h6 class="fw-bold text-dark"><i class="bi bi-exclamation-triangle me-2"></i>Difficultés & Apprentissages</h6>
-                              <p class="small text-muted mb-0">*Quelles ont été les difficultés et qu'en as-tu retiré ?*</p>
+                              <p class="small text-muted mb-0">La confusion entre le contexte terminal et le contexte psql (les commandes <code>\copy</code> et <code>pg_dump</code> ne s'exécutent pas au même endroit) a causé plusieurs erreurs. J'ai appris à bien distinguer les commandes SQL (dans psql) des commandes shell (dans le terminal), ce qui est fondamental pour éviter les erreurs d'exécution.</p>
                             </div>
                           </div>
                           <div class="col-md-6">
                             <div class="p-3 bg-light rounded h-100 border-start border-4 border-info">
                               <h6 class="fw-bold text-dark"><i class="bi bi-lightbulb me-2"></i>Comment je ferais autrement</h6>
-                              <p class="small text-muted mb-0">*Perspectives d'amélioration pour la prochaine fois.*</p>
+                              <p class="small text-muted mb-0">Je noterais dans mon compte-rendu pour chaque commande si elle s'exécute dans psql ou dans le terminal, afin de ne plus mélanger les contextes. Un simple rappel visuel (ex: prompt <code>=#</code> vs prompt <code>$</code>) suffit à éviter ces erreurs récurrentes.</p>
                             </div>
                           </div>
                         </div>
-                        <h6 class="fw-bold text-dark mb-3"><i class="bi bi-image me-2"></i>Preuves visuelles</h6>
-                        <div class="row g-3">
-                          <div class="col-md-6"><img src="" alt="Preuve" class="img-fluid rounded border w-100 preuve-img"></div>
-                          <div class="col-md-6"><img src="" alt="Preuve" class="img-fluid rounded border w-100 preuve-img"></div>
-                        </div>
+                        <h6 class="fw-bold text-dark mb-3 mt-4"><i class="bi bi-file-earmark-pdf me-2"></i>Compte-rendu de TP</h6>
+                        <button class="btn btn-outline-secondary w-100 py-2 text-start small" data-bs-toggle="modal" data-bs-target="#modalProgBDD">
+                          <i class="bi bi-file-pdf text-danger me-2"></i>Ouvrir Rapport TP (Gestion BDD PostgreSQL)
+                        </button>
                       </div>
                     </div>
                   </div>
@@ -344,32 +351,27 @@
                           <div class="col-md-6">
                             <div class="p-3 bg-light rounded h-100 border-start border-4 border-primary">
                               <h6 class="fw-bold text-dark"><i class="bi bi-bullseye me-2"></i>Ce que j'ai fait & Pourquoi</h6>
-                              <p class="small text-muted mb-0">*Décris ici l'action concrète réalisée et son objectif.*</p>
+                              <p class="small text-muted mb-0">Pour la SAÉ portfolio, j'ai publié et versionné mon site sur GitHub Pages, ce qui constitue un environnement de développement collaboratif standard dans le milieu professionnel. L'objectif était de maîtriser les bases de Git (commits, push) et de comprendre le déploiement continu d'une application web statique.</p>
                             </div>
                           </div>
                           <div class="col-md-6">
                             <div class="p-3 bg-light rounded h-100 border-start border-4 border-success">
                               <h6 class="fw-bold text-dark"><i class="bi bi-tools me-2"></i>Comment je l'ai fait</h6>
-                              <p class="small text-muted mb-0">*Détaille la méthode et les outils utilisés.*</p>
+                              <p class="small text-muted mb-0">J'ai créé un dépôt GitHub, organisé les fichiers selon une arborescence claire (<code>assets/</code>, <code>portfolio/</code>, <code>css/</code>, <code>pdf/</code>), puis utilisé Git pour versionner chaque évolution du site. GitHub Pages publie automatiquement la branche principale à chaque push, ce qui m'a permis de tester le rendu en conditions réelles.</p>
                             </div>
                           </div>
                           <div class="col-md-6">
                             <div class="p-3 bg-light rounded h-100 border-start border-4 border-warning">
                               <h6 class="fw-bold text-dark"><i class="bi bi-exclamation-triangle me-2"></i>Difficultés & Apprentissages</h6>
-                              <p class="small text-muted mb-0">*Quelles ont été les difficultés et qu'en as-tu retiré ?*</p>
+                              <p class="small text-muted mb-0">Les différences de rendu entre l'environnement local et GitHub Pages (chemins sensibles à la casse, ressources bloquées) ont nécessité plusieurs corrections. J'ai compris l'importance de tester régulièrement sur l'environnement de déploiement cible, et pas uniquement en local.</p>
                             </div>
                           </div>
                           <div class="col-md-6">
                             <div class="p-3 bg-light rounded h-100 border-start border-4 border-info">
                               <h6 class="fw-bold text-dark"><i class="bi bi-lightbulb me-2"></i>Comment je ferais autrement</h6>
-                              <p class="small text-muted mb-0">*Perspectives d'amélioration pour la prochaine fois.*</p>
+                              <p class="small text-muted mb-0">J'utiliserais des messages de commit plus descriptifs dès le début ("Ajout AC13.01 programmer" plutôt que "update") pour pouvoir retrouver facilement une version antérieure en cas de régression, et pour habituer à des pratiques professionnelles de versionnement.</p>
                             </div>
                           </div>
-                        </div>
-                        <h6 class="fw-bold text-dark mb-3"><i class="bi bi-image me-2"></i>Preuves visuelles</h6>
-                        <div class="row g-3">
-                          <div class="col-md-6"><img src="" alt="Preuve" class="img-fluid rounded border w-100 preuve-img"></div>
-                          <div class="col-md-6"><img src="" alt="Preuve" class="img-fluid rounded border w-100 preuve-img"></div>
                         </div>
                       </div>
                     </div>
@@ -549,6 +551,101 @@ for i in range (1):
 r2 = float(input("Nombre 2 : "))
 min_val = min(r1, r2)
 print(f"Le minimum est {min_val}")</code></pre>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="modalProgAdmin1" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-xl">
+      <div class="modal-content border-0">
+        <div class="modal-header bg-dark text-white">
+          <h5 class="modal-title small">TP4 : head tail cut sort uniq</h5>
+          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+        </div>
+        <div class="modal-body p-0 bg-dark">
+          <object data="../assets/pdf/R108_TP4.pdf" type="application/pdf" width="100%" style="height: 80vh; min-height: 500px; border: none;">
+            <div class="p-5 text-center text-white">
+              <p>Votre navigateur ne permet pas l'affichage direct du PDF.</p>
+              <a href="../assets/pdf/R108_TP4.pdf" target="_blank" class="btn btn-primary">Cliquez ici pour l'ouvrir ou le télécharger</a>
+            </div>
+          </object>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="modal fade" id="modalProgAdmin2" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-xl">
+      <div class="modal-content border-0">
+        <div class="modal-header bg-dark text-white">
+          <h5 class="modal-title small">TP5 : Gestion des processus</h5>
+          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+        </div>
+        <div class="modal-body p-0 bg-dark">
+          <object data="../assets/pdf/R108_TP5.pdf" type="application/pdf" width="100%" style="height: 80vh; min-height: 500px; border: none;">
+            <div class="p-5 text-center text-white">
+              <p>Votre navigateur ne permet pas l'affichage direct du PDF.</p>
+              <a href="../assets/pdf/R108_TP5.pdf" target="_blank" class="btn btn-primary">Cliquez ici pour l'ouvrir ou le télécharger</a>
+            </div>
+          </object>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="modal fade" id="modalProgAdmin3" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-xl">
+      <div class="modal-content border-0">
+        <div class="modal-header bg-dark text-white">
+          <h5 class="modal-title small">TP6 : Programmer en bash</h5>
+          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+        </div>
+        <div class="modal-body p-0 bg-dark">
+          <object data="../assets/pdf/R108_TP6.pdf" type="application/pdf" width="100%" style="height: 80vh; min-height: 500px; border: none;">
+            <div class="p-5 text-center text-white">
+              <p>Votre navigateur ne permet pas l'affichage direct du PDF.</p>
+              <a href="../assets/pdf/R108_TP6.pdf" target="_blank" class="btn btn-primary">Cliquez ici pour l'ouvrir ou le télécharger</a>
+            </div>
+          </object>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="modal fade" id="modalProgAdmin4" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-xl">
+      <div class="modal-content border-0">
+        <div class="modal-header bg-dark text-white">
+          <h5 class="modal-title small">Compte-rendu CTP R108</h5>
+          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+        </div>
+        <div class="modal-body p-0 bg-dark">
+          <object data="../assets/pdf/CompteRendu_Romain_Droques_CTP.pdf" type="application/pdf" width="100%" style="height: 80vh; min-height: 500px; border: none;">
+            <div class="p-5 text-center text-white">
+              <p>Votre navigateur ne permet pas l'affichage direct du PDF.</p>
+              <a href="../assets/pdf/CompteRendu_Romain_Droques_CTP.pdf" target="_blank" class="btn btn-primary">Cliquez ici pour l'ouvrir ou le télécharger</a>
+            </div>
+          </object>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="modalProgBDD" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-xl">
+      <div class="modal-content border-0">
+        <div class="modal-header bg-dark text-white">
+          <h5 class="modal-title small">TP Base de données PostgreSQL</h5>
+          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+        </div>
+        <div class="modal-body p-0 bg-dark">
+          <object data="../assets/pdf/AC13_05_PostgreSQL.pdf" type="application/pdf" width="100%" style="height: 80vh; min-height: 500px; border: none;">
+            <div class="p-5 text-center text-white">
+              <p>Votre navigateur ne permet pas l'affichage direct du PDF.</p>
+              <a href="../assets/pdf/AC13_05_PostgreSQL.pdf" target="_blank" class="btn btn-primary">Cliquez ici pour l'ouvrir ou le télécharger</a>
+            </div>
+          </object>
         </div>
       </div>
     </div>
